@@ -6,6 +6,7 @@
     db.TableLevel := 7;
     db.Exclusive:= True;
     with db.FeidDefs do begin
-      add('id', );
+      add('id', AutoIncrement);
     end;
+  }
   ```
